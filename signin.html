@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header2">
+      <div class="nav-container2">
+        <div class="logo">LOGO</div>
+        <nav class="nav">
+          <ul class="nav--ul__one">
+            <li class="nav-link"><a id="home" href="#">Home</a></li>
+            <li class="nav-link"><a id="contact" href="#">Browse</a></li>
+            <li class="nav-link"><a id="about" href="#">Create Recipe</a></li>
+          </ul>
+          <ul class="nav--ul__two">
+            <li class="nav-link"><a id="login" href="#">Login</a></li>
+          </ul>
+        </nav>
+        <span class="hamburger-menu material-symbols-outlined"> menu </span>
+      </div>
+    </header>
+    <div class="accountSec">
+      <div class="logIn">
+        <p class="loginHere">Login Here!</p>
+        <input
+          type="text"
+          name=".logEmail"
+          id="logEmail"
+          placeholder="Email Address"
+        />
+        <div class="passSec">
+          <input
+            type="text"
+            name=".logpass"
+            id="logpass"
+            placeholder="Password"
+          />
+        </div>
+        <div class="loginBtn">LOGIN</div>
+      </div>
+
+      <div class="signUp">
+        <p class="noAccount">don't have an account?</p>
+        <p class="signUpHere">Sign up!</p>
+        <input type="text" name=".fName" id="fName" placeholder="First Name" />
+        <div class="passSec">
+          <input type="text" name=".lName" id="lName" placeholder="Last Name" />
+        </div>
+        <div class="passSec">
+          <input
+            type="text"
+            name=".signEmail"
+            id="signEmail"
+            placeholder="Email Address"
+          />
+        </div>
+        <div class="passSec">
+          <input
+            type="text"
+            name=".signpass"
+            id="signpass"
+            placeholder="Password"
+          />
+        </div>
+        <div class="signBtn">SIGN UP</div>
+      </div>
+    </div>
+    <footer>
+      <div class="copyright">Copyright © 2019 The Jungle Cook</div>
+      <a href="" class="logBot">Login</a>
+      <a href="">Recipes by Category</a>
+      <a href="">Privacy and Copyright</a>
+      <a href="">Create Recipe</a>
+      <a href="">Your Recipes</a>
+    </footer>
+    <div class="filler"></div>
+    <script src="app/app.js"></script>
+    <script src="model/model.js"></script>
+  </body>
+</html>
