@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Account</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <title>Simple Nav</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/view.css" />
   </head>
   <body>
-    <header class="header2">
-      <div class="nav-container2">
+    <header>
+      <div class="nav-container">
         <div class="logo">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -70,62 +75,82 @@
         <nav class="nav">
           <ul class="nav--ul__one">
             <li class="nav-link"><a id="home" href="#">Home</a></li>
-            <li class="nav-link"><a id="contact" href="#">Browse</a></li>
-            <li class="nav-link"><a id="about" href="#">Create Recipe</a></li>
+            <li class="nav-link"><a id="contact" href="#">Contact</a></li>
+            <li class="nav-link"><a id="about" href="#">About</a></li>
           </ul>
           <ul class="nav--ul__two">
-            <li class="nav-link"><a id="login" href="#">Login</a></li>
+            <li class="nav-link"><a id="login" href="signin.html">LogIn</a></li>
+            <!-- <li class="nav-link">
+              <a id="signup" href="signin.html">SignUp</a>
+            </li> -->
           </ul>
         </nav>
         <span class="hamburger-menu material-symbols-outlined"> menu </span>
       </div>
     </header>
-    <div class="accountSec">
-      <div class="logIn">
-        <p class="loginHere">Login Here!</p>
-        <input
-          type="text"
-          name=".siEmail"
-          id="siEmail"
-          placeholder="Email Address"
-        />
-        <div class="passSec">
-          <input
-            type="text"
-            name=".siPassword"
-            id="siPassword"
-            placeholder="Password"
-          />
-        </div>
-        <div id="siSubmit">LOGIN</div>
-      </div>
 
-      <div class="signUp">
-        <p class="noAccount">don't have an account?</p>
-        <p class="signUpHere">Sign up!</p>
-        <input type="text" name=".fName" id="fName" placeholder="First Name" />
-        <div class="passSec">
-          <input type="text" name=".lName" id="lName" placeholder="Last Name" />
-        </div>
-        <div class="passSec">
-          <input
-            type="text"
-            name=".email"
-            id="email"
-            placeholder="Email Address"
-          />
-        </div>
-        <div class="passSec">
-          <input
-            type="text"
-            name=".password"
-            id="password"
-            placeholder="Password"
-          />
-        </div>
-        <div id="submit">SIGN UP</div>
+    <div class="viewTop">
+      <p class="sideway">supreme pizza</p>
+
+      <img src="../dist/images/recipe-pizza.jpg" alt="" class="pizzaView" />
+
+      <div class="topWords">
+        <p class="des">Description:</p>
+
+        <p class="viewDes">
+          Make pizza night super duper out of this world with homemade pizza.
+          This recipe is supreme with vegetables and two types of meat. Yum!
+        </p>
+
+        <p class="viewTime">
+          Total Time:
+          <br />
+          1h 24min
+          <br />
+          Servings:
+          <br />
+          4 servings
+        </p>
       </div>
     </div>
+
+    <div class="bottomWords">
+      <p class="ingre">Ingredients:</p>
+      <p class="ingreWords">
+        1/4 batch pizza dough
+        <br />
+        2 tablespoons Last-Minute Pizza Sauce
+        <br />
+        10 slices pepperoni
+        <br />
+        1 cup cooked and crumbled Italian sausage
+        <br />
+        2 large mushrooms, sliced
+        <br />
+        1/4 bell pepper, sliced
+        <br />
+        1 tablespoon sliced black olives
+        <br />
+        1 cup shredded mozzarella cheese
+      </p>
+
+      <p class="inst">Instructions:</p>
+      <p class="instWords">
+        1. Preheat the oven to 475°. Spray pizza pan with nonstick cooking or
+        line a baking sheet with parchment paper.
+        <br />
+        2. Flatten dough into a thin round and place on the pizza pan.
+        <br />
+        3. Spread pizza sauce over the dough.
+        <br />
+        4. Layer the toppings over the dough in the order listed .
+        <br />
+        5. Bake for 8 to 10 minutes or until the crust is crisp and the cheese
+        melted and lightly browned.
+      </p>
+    </div>
+
+    <div class="edit">Edit Recipe</div>
     <footer>
       <div class="copyright">Copyright © 2019 The Jungle Cook</div>
       <a href="" class="logBot">Login</a>
@@ -134,8 +159,9 @@
       <a href="">Create Recipe</a>
       <a href="">Your Recipes</a>
     </footer>
-    <div class="filler"></div>
+
+    <script src="lib/jquery-3.7.1.min.js"></script>
     <script src="./app/app.js"></script>
-    <script src="./src/model.js"></script>
+    <script src="../src/model.js"></script>
   </body>
 </html>

@@ -24,7 +24,7 @@ p {
   position: relative;
   padding: 30px;
   display: flex;
-  height: 94%;
+  height: 78%;
   align-items: center;
   justify-content: center;
   /* background-color: black; */
@@ -49,7 +49,15 @@ p {
   align-items: center;
   justify-content: center;
   padding: 10px;
+  font-size: 10px;
   box-shadow: -5px 10px 10px 1px rgba(136, 136, 136, 0.4);
+
+  .smallP {
+    width: 90px;
+    margin-left: 25px;
+    font-family: gillSanL;
+    font-style: italic;
+  }
 }
 
 .yellow-circle {
@@ -63,6 +71,23 @@ p {
   padding: 20px;
   box-shadow: -5px 10px 10px 1px rgba(136, 136, 136, 0.4);
   z-index: 1;
+  display: block;
+
+  .jungleP {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: gillSanL;
+    margin-top: 90px;
+    margin-left: 80px;
+  }
+
+  .yellowP {
+    font-family: gillSanL;
+    width: 180px;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 30px;
+  }
 }
 
 ul {
@@ -76,8 +101,8 @@ a {
 }
 
 header {
-  background-color: darkseagreen;
-  color: darkslategrey;
+  /* background-color: darkseagreen; */
+  color: black;
   padding: 0.5rem 0;
 }
 
@@ -85,7 +110,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -102,16 +127,16 @@ header {
 
 .nav--ul__one {
   /* margin: 0 auto; */
-  margin-left: 900px;
+  margin-left: 940px;
   margin-top: 10px;
-  width: 270px;
+  width: 210px;
   height: 100px;
   /* background-color: darkolivegreen; */
 }
 
 .nav--ul__two {
   /* margin: 0 auto; */
-  /* background-color: cadetblue; */
+  background-color: #ffd972;
   width: 130px;
   padding-left: 40px;
   padding-top: 3px;
@@ -166,7 +191,7 @@ header {
     padding-top: 6rem;
     align-items: center;
     text-align: center;
-    background-color: lightblue;
+    background-color: black;
     color: darkslategray;
 
     transition: 0.3s ease-in-out;
@@ -278,8 +303,9 @@ header {
   }
 }
 footer {
-  background-color: #ffd972;
+  /* background-color: #ffd972; */
   font-family: gillSanL;
+  padding-bottom: 15px;
 
   .copyright {
     float: left;
@@ -312,3 +338,76 @@ footer {
   font-family: caveat;
   src: url(../fonts/Caveat-Regular.ttf);
 }
+
+.form {
+  width: 800px;
+}
+
+.form p {
+  margin-bottom: 5px;
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* .ingreds {
+  position: relative;
+}
+
+.instructs {
+  position: relative;
+}
+
+.addBtn {
+  padding: 10px 15px;
+  background-color: darkolivegreen;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  cursor: pointer;
+}
+
+.submitBtn {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px 15px;
+  background-color: darkolivegreen;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.recipe {
+  width: 500px;
+  min-height: 500px;
+  background-color: antiquewhite;
+  display: flex;
+}
+
+.recipeImageHolder {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+
+.recipeImageHolder img {
+} */

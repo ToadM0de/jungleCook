@@ -3,6 +3,6 @@ https://in-info-web4.luddy.indianapolis.iu.edu/~emditzen/N315/jungleCook/signin.
 
 THINGS TO FIX
 *make responsive code less messy
-*imgs
+*logo and footer imgs
 \*sign in/out link tweaking
-\*sass
+\*sass \* fix header

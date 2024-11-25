@@ -1,0 +1,81 @@
+.viewTop {
+  /* background-color: cadetblue; */
+  width: 100%;
+  height: 570px;
+  display: inline-flex;
+  font-family: gillSanL;
+
+  .sideway {
+    font-size: 30px;
+    font-family: gillSanL;
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+    margin-bottom: 180px;
+    margin-left: 120px;
+  }
+
+  .pizzaView {
+    height: 421px;
+    width: 468px;
+    margin-top: 100px;
+  }
+}
+
+.topWords {
+  font-family: gillSanL;
+  margin-left: 90px;
+  margin-top: 100px;
+
+  .des {
+    font-size: 25px;
+  }
+
+  .viewDes {
+    font-size: 20px;
+    width: 470px;
+    padding-top: 50px;
+  }
+
+  .viewTime {
+    font-size: 20px;
+    line-height: 50px;
+    padding-top: 40px;
+  }
+}
+
+.bottomWords {
+  font-family: gillSanL;
+  margin-left: 160px;
+
+  .ingre {
+    font-size: 25px;
+  }
+
+  .ingreWords {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .inst {
+    font-size: 25px;
+    margin-top: 60px;
+  }
+
+  .instWords {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+}
+
+.edit {
+  background-color: #ffd972;
+  width: 85px;
+  height: 30px;
+  padding-top: 5px;
+  border-radius: 15px;
+  padding-left: 5px;
+  margin-top: 60px;
+  margin-left: 150px;
+  font-family: gillSanL;
+  margin-bottom: 60px;
+}
